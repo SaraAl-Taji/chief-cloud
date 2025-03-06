@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SaraAl-Taji/chief-cloud.git/static/css/main.eedbe5b9.css",
-    "main.js": "/SaraAl-Taji/chief-cloud.git/static/js/main.e1cc987b.js",
-    "static/js/488.10d7a5f5.chunk.js": "/SaraAl-Taji/chief-cloud.git/static/js/488.10d7a5f5.chunk.js",
-    "static/media/food-bg.jpg": "/SaraAl-Taji/chief-cloud.git/static/media/food-bg.e47d1bf5b956a4f32a6f.jpg",
-    "index.html": "/SaraAl-Taji/chief-cloud.git/index.html",
-    "main.eedbe5b9.css.map": "/SaraAl-Taji/chief-cloud.git/static/css/main.eedbe5b9.css.map",
-    "main.e1cc987b.js.map": "/SaraAl-Taji/chief-cloud.git/static/js/main.e1cc987b.js.map",
-    "488.10d7a5f5.chunk.js.map": "/SaraAl-Taji/chief-cloud.git/static/js/488.10d7a5f5.chunk.js.map"
+    "main.css": "/chief-cloud/static/css/main.8c8ba1f6.css",
+    "main.js": "/chief-cloud/static/js/main.81bfad55.js",
+    "static/js/488.10d7a5f5.chunk.js": "/chief-cloud/static/js/488.10d7a5f5.chunk.js",
+    "static/media/food-bg.jpg": "/chief-cloud/static/media/food-bg.e47d1bf5b956a4f32a6f.jpg",
+    "index.html": "/chief-cloud/index.html",
+    "main.8c8ba1f6.css.map": "/chief-cloud/static/css/main.8c8ba1f6.css.map",
+    "main.81bfad55.js.map": "/chief-cloud/static/js/main.81bfad55.js.map",
+    "488.10d7a5f5.chunk.js.map": "/chief-cloud/static/js/488.10d7a5f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eedbe5b9.css",
-    "static/js/main.e1cc987b.js"
+    "static/css/main.8c8ba1f6.css",
+    "static/js/main.81bfad55.js"
   ]
 }
