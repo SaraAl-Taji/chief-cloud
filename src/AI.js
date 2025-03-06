@@ -1,6 +1,6 @@
 import { HfInference } from "@huggingface/inference";
 
-const hf = new HfInference(process.env.hugging_face_key);
+const hf = new HfInference('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');
 
 
 const system_prompt = `You are an assistent that receives a list of Ingridients that a user has and suggests a recipe that 
