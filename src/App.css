@@ -1,0 +1,224 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: rgba(128, 126, 0,0.4);
+}
+
+/* .main-header{
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 6px 3px 0px rgba(0, 0, 0, 0.10), 0px 7px 2px 0px rgba(0, 0, 0, 0.06);
+  margin: 0;
+  gap: 10px;
+} */
+
+/* Main header styling */
+.main-header {
+  height: 70px; /* Slightly increased height for better spacing */
+  padding: 0;
+  margin: 0;
+  /*background-color: #2c3e50; /* Dark background for sophistication */
+  background-image: url(Assets/food-bg.jpg);
+}
+
+/* Nav container (centered items, flex layout) */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #927a1a; /* Golden text color to give a premium feel */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2), 0px 2px 5px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  margin: 0;
+  gap: 20px; /* Slightly increased gap between icon and text */
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+  padding: 0 20px; /* Padding for inner space */
+}
+
+/* Sushi icon styling */
+.nav-container i {
+  font-size: 36px; /* Bigger, more prominent icon */
+  color: #927a1a; /* Matching icon color with text */
+}
+
+/* Text styling for the title */
+.nav-container p {
+  font-size: 28px; /* Slightly larger text size */
+  font-weight: bold; /* Bold text for emphasis */
+  letter-spacing: 1px; /* Increased letter-spacing for readability */
+  text-transform: uppercase; /* Uppercase text for a premium look */
+}
+
+/* Add hover effect to the text for interaction */
+.nav-container p:hover {
+  color: rgba(66, 74, 32); /* Change to a lighter color on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.nav-container i:hover {
+  color: rgb(115, 127, 62); /* Change to a lighter color on hover */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+/* Additional Responsive Design (For smaller screens) */
+@media (max-width: 768px) {
+  .nav-container {
+    gap: 15px; /* Reduced gap for smaller screens */
+  }
+
+  .nav-container i {
+    font-size: 30px; /* Adjust icon size for smaller screens */
+  }
+
+  .nav-container p {
+    font-size: 24px; /* Adjust text size */
+  }
+}
+
+
+main{
+  padding: 30px 30px 10px;
+}
+
+
+.add-ingredient-form{
+  display: flex;
+  justify-content: center;
+  gap:13px;
+}
+
+.add-ingredient-form > input{
+  font-family: sans-serif;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid saddlebrown;
+  padding: 9px 13px;
+  box-shadow: 2px 4px 3px 0px rgba(255, 189, 8, 0.1), 0px 7px 2px 0px rgba(54, 54, 49, 0.1);
+  max-width: 600px;
+  flex-grow: 1;
+}
+
+.add-ingredient-form > input:focus {
+    outline: none ;
+    border: 2px saddlebrown solid;
+}
+
+.add-ingredient-form > button{
+  font-family: 'Roboto', sans-serif;  /* Change the font family */
+  border-radius: 6px;
+  border: none;
+  color: #846f1c;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-right: 15px;
+  padding-left: 15px; 
+  cursor: pointer;
+}
+
+
+.add-ingredient-form > button::before{
+  content: "+";
+  margin-right: 5px;
+}
+
+.ingredients-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 100%;
+  box-sizing: border-box; /* Ensures padding does not overflow the container */
+  width: 100%; /* Make sure it takes up full width of its parent */
+  padding-top: 2rem;
+  box-sizing: border-box; 
+}
+
+
+.ingredients-section > *{
+  margin: 0;
+  width: 100%; 
+}
+
+.ingredients-section > ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+.ingredients-section > ul >li::before{
+  content: '- ';
+}
+
+.get-recipe-container{
+  display: flex;
+  gap: 14px;
+}
+
+.container{
+  padding-left: 8%; /* Apply a 8% padding on all sides */
+}
+
+.get-recipe-container > button{  
+
+  font-family: 'Roboto', sans-serif;  /* Change the font family */
+  border-radius: 6px;
+  border: none;
+  color: #846f1c;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 15px ;
+  transition: background-color 0.3s, transform 0.3s color 0.3s;
+  align-self: flex-end;
+  margin-bottom: 12px;
+
+}
+
+button:hover {
+  background-color: #846f1c;
+  transform: translateY(-2px); 
+  color:rgba(0, 0, 0, 0.8);
+}
+
+.get-recipe-container > button:active {
+  transform: translateY(0);
+}
+
+.suggested-recipe-container{
+  border-radius: 4.5px;
+  border: 4px  #846f1c groove;
+  background-color: rgba(128, 126, 0,0.095);
+}
+
+
+@media(max-width:768px){
+  .container{
+    padding-left: 1%;
+  }
+}
+
+@media(max-width: 992px){
+  .container{
+    padding-left: 2.5%;
+  }
+}
+
+@media(max-width: 1250px){
+  .container{
+    padding-left: 5.5%;
+  }
+}
